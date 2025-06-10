@@ -8,3 +8,6 @@ To address this task, the project adopts an exploratory approach that investigat
 Another core aspect of the approach is data augmentation. Since real-world audio can vary widely due to background noise, microphone quality, or environmental conditions, it is important to simulate such variability during training. Augmentation techniques such as time masking, frequency masking, and background noise addition are applied to improve the model’s robustness and generalization, particularly in low-data regimes.
 
 Ultimately, the goal is to implement a reliable and reproducible classification pipeline that takes a short audio clip as input and outputs the predicted sound category with high accuracy. Along the way, the influence of design choices—including feature extraction methods, model architectures, and augmentation strategies—is critically assessed to gain deeper insight into what contributes most to performance.
+
+## Attention!
+If cloning this repository, verify that the checkpoints are cloned correctly, it may happen that they are not downloaded correctly. If it happens, download them individually.
